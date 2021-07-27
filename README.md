@@ -1,2 +1,2 @@
 # jenkins
-Jenkins with dotnet/node/yarn
+docker images for Jenkins with dotnet/node/yarn
