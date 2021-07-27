@@ -1,2 +1,2 @@
 # jenkins
-Jenkins with dotnet/node/vuepress
+Jenkins with dotnet/node/yarn
