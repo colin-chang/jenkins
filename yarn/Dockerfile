@@ -12,7 +12,6 @@ RUN dnf install -y gcc-c++ make \
 && dnf install -y nodejs \
 
 # vuepress
-&& npm install -g yarn \
-&& yarn add -D vuepress
+&& npm install -g yarn
 
 USER jenkins

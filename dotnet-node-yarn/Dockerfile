@@ -15,8 +15,7 @@ RUN dnf install -y dotnet-sdk-$DOTNET_VERSION \
 && curl -sL https://rpm.nodesource.com/setup_$NODE_VERSION.x | bash - \
 && dnf install -y nodejs \
 
-# vuepress
-&& npm install -g yarn \
-&& yarn add -D vuepress
+# yarn
+&& npm install -g yarn
 
 USER jenkins
